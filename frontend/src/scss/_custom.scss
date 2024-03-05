@@ -1,0 +1,587 @@
+/*
+* Home
+*/
+.main-padding {
+  max-width: 1168px;
+  padding: 121px 0 50px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'PoppinsM' !important;
+  line-height: 1.15;
+
+  @media (max-width: 1168px) {
+    padding: 90px 15px 50px;
+  }
+}
+.background-dark {
+  background-color: #181924 !important;
+}
+.header {
+  min-width: 468px;
+  margin: 0 auto;
+  box-shadow: none !important;
+  font-family: 'PoppinsR' !important;
+  padding: 1px calc(50% - 614px) !important;
+  background-color: #181924 !important;
+  height: 72px !important;
+  font-weight: 20px !important;
+  @media (min-width: 1168px) {
+    padding: 1px auto;
+  }
+  .header-border {
+    height: 1px;
+    background-color: #3f4252;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1px calc(50% - 614px) !important;
+    @media (min-width: 1168px) {
+      padding: 1px auto;
+    }
+  }
+}
+.footer {
+  width: 100%;
+  padding: 1px calc(50% - 584px);
+  margin: 0 auto;
+  background-color: #374248 !important;
+  color: #3f8dbb;
+  box-shadow: none;
+  border: none;
+  font-family: 'PoppinsM' !important;
+  font-size: 14px;
+  @media (min-width: 1168px) {
+    padding: 1px 30px;
+  }
+  @media (min-width: 768px) {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+.subfooter {
+  width: 100%;
+  padding: 1px calc(50% - 584px);
+  margin: 0 auto;
+  box-shadow: none;
+  border: none;
+  font-family: 'PoppinsM' !important;
+  font-size: 14px;
+  @media (min-width: 1168px) {
+    padding: 1px auto;
+  }
+  // @media (min-width: 768px) {
+  //   padding-right: 30px;
+  //   padding-left: 30px;
+  // }
+}
+.container-fluid {
+  padding: 0px !important;
+}
+.popup-warper {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px var(--ifm-link-color) dashed;
+  margin: 10px;
+  white-space: pre-line;
+}
+
+
+// Textfield material ui
+.MuiTextField-root > label {
+  color: gray;
+  font-size: 16px;
+}
+
+.MuiTextField-root > .MuiFormLabel-root.Mui-focused {
+  color: gray;
+  font-size: 16px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.p-25 {
+  padding: 25px;
+}
+.d-box-shadow1 {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.d-border {
+  border: none !important;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-25 {
+  font-size: 25px;
+}
+
+// Exchange Widget
+.button-sign {
+    background-color: white;
+    color: red;
+    padding: 12px 16px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+.button-sign:hover {
+  background-color: rgb(228, 227, 227);
+  color: red !important;
+}
+.button-sign-active {
+    background-color: red;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.button-sign-active:hover {
+  background-color: rgb(206, 3, 3);
+  color: white !important;
+}
+
+.button-exchange {
+  background-color: red;
+  color: white;
+  margin-top: 15px;
+  padding: 14px 16px;
+  font-size: 16px;
+  line-height: 21px;
+}
+.button-exchange:hover {
+    background-color: rgba(255, 0, 0, 0.63);
+    color: white;
+}
+.card-exchange-rate {
+  margin: 12px 0;
+  color: #557f96;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.card-exchange {
+  min-width: 468px;
+  max-width: 480px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 20px 20px 60px #232b33;
+  color: black;
+  padding: 30px;
+
+  .card-exchange-bank-method-ask {
+    color: #394247b4;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 100;
+    width: 100%;
+    cursor: pointer;
+  }
+  .card-exchange-bank-method-ask:hover {
+    color: black;
+  }
+
+  .button-currency {
+    color: black;
+    width: 110px;
+    padding-left: 8px;
+
+    .small-full-currency {
+      font-size: 13px;
+      line-height: 18px;
+      overflow: hidden;
+      max-width: 70px;
+      text-overflow: ellipsis;
+      color: #b4b4b4;
+      text-align: left;
+      white-space: nowrap;
+    }
+    .currency-name {
+      text-align: left;
+      font-weight: 700;
+      line-height: 28px;
+      font-size: 20px;
+      color: #394247;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 80px;
+      white-space: nowrap;
+    }
+    .status-icon {
+      padding-top: 15px;
+    }
+  }
+}
+
+.card-setting {
+  min-width: 468px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #232b3377;
+  color: black;
+  padding: 30px;
+}
+
+.app-icon-img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.currency-dropdown-menu {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.search-dropdown {
+  background-color: white !important;
+}
+.currency-dropdown {
+  background-color: white !important;
+  color: black !important;
+  padding-bottom: 5px;
+  .currency-icon {
+    font-size: 1.6rem;
+    font-style: normal;
+  }
+  .stands-of-currency {
+    margin-left: 18px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #557f96;
+  }
+  .full-currency {
+    margin-left: 12px;
+    color: #557f96;
+  }
+}
+.currency-dropdown:hover {
+  background-color: rgb(231, 229, 229) !important;
+}
+
+.card-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto 0 auto 50px;
+
+  @media (max-width: 768px) {
+    margin: auto 0 auto 0;
+  }
+  // Intro
+  .intro-title {
+    margin: 0;
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 550px;
+    zoom: 1;
+    text-align: left;
+    margin-bottom: 2rem;
+    @media (max-width: 768px) {
+      min-width: 368px;
+      font-size: 32px;
+      line-height: 30px;
+    }
+  }
+  .intro-desc {
+    margin: 16px 0 0;
+    padding: 0;
+    line-height: 24px;
+    font-size: 18px;
+  }
+  .img-mobile-store {
+    border-radius: 0px !important;
+  }
+  .unicash-url {
+    font-size: 30px;
+    color: #3D98BF;
+  }
+  .online-status {
+    background-color: #00ff00;
+    color: #00ff00;
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    text-align: center;
+    margin: auto;
+  }
+  .offline-status {
+    background-color: gray;
+    color: gray;
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+.transaction-table {
+  .header-title {
+    font-size: 24px !important;
+    line-height: 32px;
+    font-family: 'PoppinsM' !important;
+  }
+  table {
+    font-size: 16px;
+  }
+}
+.widget-feedbacks {
+  padding: 40px 0;
+  justify-content: space-between;
+  .header-title {
+    font-size: 24px !important;
+    line-height: 32px;
+    font-family: 'PoppinsM' !important;
+  }
+  .widget-feedback {
+    min-height: 150px;
+    padding: 24px;
+    border-radius: 4px;
+  }
+
+  .feedback { padding-left: 24px; }
+  .feedback-auth { font-size: 20px; line-height: 28px; }
+  .feedback-content { font-size: 14px; line-height: 20px; margin-top: 16px;}
+
+}
+
+
+.dropdown-toggle-exchange {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  font-size: 17px;
+  // font-weight: 400;
+  margin-bottom: 0px !important;
+}
+
+.menu-item-active {
+  color: white !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  font-size: 17px;
+  // font-weight: 400;
+  margin-bottom: 0px !important;
+}
+
+.widget-advantage {
+  height: 200px;
+  padding: 30px 25px;
+  img {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+  }
+  p {
+    margin-top: 28px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    cursor: default;
+  }
+}
+
+/*
+* **************** Sign In ***************
+*/
+.signin-widget {
+  margin: 0;
+  background-color: white !important;
+  color: #181924;
+  padding: 3px 20px !important;
+
+  input {
+    color: #181924 !important;
+    border-color: #3f42529f !important;
+  }
+  button {
+    background-color: red !important;
+  }
+}
+
+.signin-header-title {
+  font-size: 26px;
+  line-height: 32px;
+  margin-top: 30px;
+  color: #404b51;
+  font-weight: 600;
+}
+.signin-header-desc {
+  color: #7d7e7e;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.span-underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.span-underline:hover {
+  color: #494949;
+}
+.signin-button {
+  width: 100%;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.signin-button:hover {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}
+
+.copy-button {
+  width: 100%;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 12px;
+}
+
+.copy-button:hover, .copied-button {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+
+.auth-modal {
+  background-color: transparent !important;
+}
+
+
+// Add Payment
+.add-payment {
+  text-align: center;
+}
+.add-payment-select {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  font-family: 'PoppinsR' !important;
+  font-size: 16px;
+}
+
+.add-payment-select:hover, .add-payment-select:focus {
+  border: none;
+}
+
+.pay-exact-amount-in-exchange, .note-in-exchange, .amount-in-exchange {
+  color: #394247;
+  font-weight: bold;
+}
+
+.pay-exact-amount-in-exchange {
+  font-size: 14px;
+  font-weight: 500;
+}
+.amount-in-exchange {
+  font-size: 28px;
+  font-weight: 700;
+}
+.scan-desc-in-exchange {
+  margin-top: -15px;
+  margin-left: -10px;
+}
+
+/*
+* Admin Home
+*/
+.admin-home-widget1 {
+  height: 200px;
+  width: 270px;
+  .widget1-number {
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    text-align: center;
+    padding-top: 38px;
+    span {
+      font-size: 48px;
+      color: green;
+      text-align: center;
+    }
+  }
+  .widget2-number {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 130px;
+    margin: auto;
+    text-align: center;
+    padding-top: 38px;
+    font-family: 'PoppinsM' !important;
+    span {
+      font-size: 52px;
+      color: green;
+      text-align: center;
+    }
+  }
+  p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    cursor: default;
+  }
+}
+
+.admin-home-widget-dive {
+  overflow-y: auto;
+}
+
+.admin-search {
+  width: 100%;
+  input {
+    font-size: 16px;
+  }
+  .admin-search-button {
+    font-size: 16px;
+    color: white;
+    background-color: red;
+    // cursor: pointer;
+  }
+}
+
+.edit-transaction-checkbox {
+  font-size: 19px;
+  width: 100% !important;
+  display: flex;
+  font-family: 'PoppinsH' !important;
+}
+
+.file-input-box-group { width: 100%; }
+.file-input-box {
+  font-size: 18px !important;
+}
+.file-input-box-button {
+  font-size: 18px !important;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.smtp-ssl {
+  margin: auto;
+  font-size: 20px !important;
+  padding-top: 25px;
+}
+
+.transaction-date-label {
+  font-size: 22px;
+}

@@ -1,0 +1,15 @@
+﻿{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "",
+        "database": "db_unicash"
+    },
+    "secret": "Database for Unicash",
+    "admin": "admin@gmail.com",
+    "mail": {
+        "sendgrid_api": "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",
+        "from": "support@unicash.ph"
+    }
+}
